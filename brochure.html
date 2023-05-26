@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <title>Brochure</title>
+</head>
+    <body >
+        <header>
+            <h1 class="letra">Mis servicios</h1>
+            <nav id="navegar">
+                <img src="/img/images.jpg" id="logo" />
+                <img src="/img/descarga.jpg" id="logo" />
+                <img src="/img/images (1).jpg" id="logo" />
+                <img src="/img/descarga (1).jpg" id="logo" />
+                <div id="bloque">
+                    <a class="boton1" href="./cv.html" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a>
+                    <a class="boton1" href="./contacto.html" target="_blank" rel="noopener noreferrer">Datos de contacto</a>
+                </div>
+            </nav>
+        </header>
+        <div class=" servicios">
+            <div><button class="letra2"  onclick="mostrarDetalles('servicio1')">Servicio 1</button>
+                <p class=letra3 id="servicio1">Mantenimiento Preventivo Sistemas Electricos y electronicos</p>
+            </div>
+            <div><button class="letra2"  onclick="mostrarDetalles('servicio2')">Servicio 2 </button>
+                <p class=letra3 id="servicio2">Montajes de sistemas de automatizacion</p>
+            </div>
+            <div><button class="letra2"  onclick="mostrarDetalles('servicio3')">Servicio 3</button>
+                <p class=letra3 id="servicio3">Desarrollo de paginas Web</p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

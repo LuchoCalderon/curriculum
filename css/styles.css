@@ -1,0 +1,166 @@
+
+
+@media (max-width: 600px) {
+    form {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+body{
+    display: flex;
+    flex-direction:inherit;
+    justify-content: center;
+    align-items: center;
+    background-color:azure;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 20px;
+}
+
+
+.banner{
+    align-items: center;
+    justify-content:center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.letra{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    background-color: #6d766d;
+    color:aliceblue;
+    text-align: center;
+    border-radius: 80%;
+}
+
+#navegar{
+    background-color: #6d766d;
+}
+
+#logo{
+    padding: 0px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+#bloque{
+    float:right;
+    margin-top: 80px;
+}
+
+
+.boton1{
+    margin: 10px;
+    background-color:aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:black;
+    color:#6d766d;
+    text-align: center;
+    text-decoration:double;
+    display: inline-block;
+    font-size: 20px;
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+    }
+    .boton1:hover{
+        transform: rotateZ(360deg);
+            -webkit-transform: rotateZ(360deg);
+            -moz-transform: rotateZ(360deg);
+    }
+
+
+#foto{
+    padding: 20px;
+    margin: 30px;
+    height: 100px;
+    width: 60px;
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.letra1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    background-color: #6d766d;
+    color:aliceblue;
+    border-radius: 20%;
+    
+}
+.letra2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    background-color: #6d766d;
+    color:aliceblue;
+    border-radius: 20%;
+
+}
+
+.letra3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:#6d766d;
+    border-radius: 20%;
+    
+}
+
+.letra4{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-color: #6d766d;
+    color:aliceblue;
+    text-align: center;
+}
+
+#habilidades{
+    display: none;
+}
+
+.servicios{
+    display: flex;
+    justify-content:space-around; 
+    width: 80%; 
+    margin-top: 2%;
+}
+
+#servicio1, #servicio2, #servicio3, #servicio4{
+    display: none;
+}
+
+.p{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+}
+
+input, textarea{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
