@@ -7,31 +7,49 @@
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <title>Actividad Unidad 9</title>
 </head>
-    <body >
-        <header>
-            <h1 class="letra">Datos de contacto</h1>
-            <nav id="navegar">
-                <img src="/img/telephone-586266_640.jpg" id="logo" />
-                <div id="bloque">
-                    <a class="boton1" href="./cv.html" target="_blank" rel="noopener noreferrer">Brochure de servicios</a>
-                    <a class="boton1" href="./brochure.html" target="_blank" rel="noopener noreferrer">Datos de contacto</a>
+<body id="myBody"  transition-style="in:diamond:center">
+    <!-- onload="loadBody()" -->
+    <header>
+        <h1>Contactame</h1>
+        <nav>
+            <!-- <img src="/img/telephone-586266_640.jpg" id="logo" /> -->
+            <div id="bloque">
+                <a class="boton1" href="./cv.html" target="_blank" rel="noopener noreferrer"><h2>Curriculum Vitae</h2></a>
+                <a class="boton1" href="./brochure.html" target="_blank" rel="noopener noreferrer"><h2>Brochure de Servicios</h2></a>
+            </div>
+        </nav>
+    </header>
+        
+    <main >        
+            <form id="myForm">
+                <div class="form">
+                    <label class="letra1" for="name">Nombre:</label>
+                    <input type="text" id="name" placeholder="Escribe tu nombre" required>
                 </div>
-            </nav>
-        </header>
-        <form id="contacteme">
-            <label class="letra1" for="nombre">Nombre:</label>
-            <input type="text" id="nombre" nombre="nombre" required>
-
-            <label class="letra1" for="email">Correo Electronico:</label>
-            <input type="email" id="email" nombre="email" required>
-
-            <label class="letra1" for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" nombre="mensaje" required></textarea>
-            <input  class="letra2" type="submit" value="Enviar">
-
-        </form>
+                <div class="form">
+                    <label class="letra1" for="email"> Correo Electronico:</label>
+                    <input type="email" id="email" placeholder="Escribe tu email" required>
+                </div>
+                <div class="form">
+                    <label class="letra1" for="message">Mensaje:</label>
+                    <textarea id="message" placeholder="Escribeme un mensaje" required></textarea>
+                    <input  class="letra2" type="submit" value="Enviar">
+    
+                </div>
+                
 
 
-        <script src="script.js"></script>
-    </body>
+            </form>
+
+            <!-- <div>
+                <h2>Información Almacenada</h2>
+                <br>
+                <br>
+                <p id="Data"></p>
+                
+            </div> -->
+
+    </main>
+            <script src="script.js"></script>
+</body>
 </html>

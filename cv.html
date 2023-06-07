@@ -1,91 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
-    <title>Actividad Unidad </title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" href="https://unpkg.com/transition-style">
+    
+    <title>Actividad Unidad 9</title>
 </head>
-    <body >
-        <header>
-            <h1 class="letra">Curriculum Vitae</h1>
-            <nav id="navegar">
-                <img src="./img/foto.jpg" id="logo" />
-                <div id="bloque">
-                    <a class="boton1" href="./brochure.html" target="_blank" rel="noopener noreferrer">Brochure de servicios</a>
-                    <a class="boton1" href="./contacto.html" target="_blank" rel="noopener noreferrer">Datos de contacto</a>
-                </div>
-            </nav>
-        </header>
-        <section>
-        <h2 class="letra1">
-            Datos Personales
-        </h2>
-        <ul class="letra3">
-            <li>Nombre: Luis Alberto Calderon Ortega</li>
-            <li>Direccion: Bogota</li>
-            <li>Telefono: 3108620969</li>
-            <li>Correo Electronico: luchocalderon16@gmail.com</li>
-        </ul>
-        <a class="boton1" href="https://www.linkedin.com/in/luis-alberto-calderon-ortega-7643aa13b/" target="_blank">LinkedIn</a>
-        </section>
-        <section>
-        <h2 class="letra1">
-            Acerca de
-        </h2>
-        <p class="letra3" class="banner">
-              Profesional en ingeniería electrónica y Tecnólogo en Mantenimiento Electrónico e Instrumental Industrial, amplia experiencia laboral en el desarrollo de procesos de mantenimiento preventivo y correctivo a maquinaria industrial en áreas de producción, diagnóstico de fallas, reparación y/o cambio de elementos, seguimiento a mantenimientos y solicitudes de compras. Con conocimientos en manejo de herramientas ofimáticas y software especializado SAP. Acompañamiento a personal técnico. Caracterizado por la capacidad de análisis, facilidad para el trabajo en equipo, atención al detalle y orientación a los resultados.
-        </p>
-        </section>
-        <section>
-        <h2 class="letra1">
-            Experiencia Laboral
-        </h2>
-        <ul class="letra3">
-            <li>
-                Técnico de mantenimiento <Img:s></Img:s>
-            </li>
-            <br>Funtrition
-            <br>Mayo 2022 - actualidad
-            <br>
-            <br>
-            <li>
-                Técnico de Electromecanico 
-            </li>
-            <br>Alpina
-            <br>Febrero 2022 - Mayo 2022
-        </ul>
-        </section>
-        <section>
-        <h2 class="letra1">
-            Educación
-        </h2>
-        <ul class="letra3">
-            <li>
-                Universidad Nacional Abierta y a Distancia            </li>
-            <br>Ingenieo Electronico
-            <br>Julio 2020
-            <br>
-            <br>
-            <li>
-                Universidad Nacional de Colombia            </li>
-            <br>Diplomado Habilidades en Programacion con Enfasis en Aplicacion Web
-            <br>Diciembre 2022
-        </ul>
-        </section>
-        <section>
-        <button class="letra1 "onclick="mostrarHabilidades()">Habilidades</button>
-        <ul id="habilidades" class="letra3">
-            <li>Electronica</li>
-            <li>Electricidad</li>
-            <li>html,css,javascript</li>
-            <li>php</li>
-            <li>python</li>
 
-        </ul>
-        </section>  
+<body transition-style="in:diamond:center">
+    <!-- comienzoheader -->
+    <header>
+        <h1>Curriculum Vitae</h1>
+        <nav>
+            <div id="bloque">
+                <a class="boton1" href="./brochure.html" target="_blank" rel="noopener noreferrer"><h2>Brochure de servicios</h2></a>
+                <a class="boton1" href="./contacto.html" target="_blank" rel="noopener noreferrer"><h2>Contactame</h2></a>
+            </div>
+        </nav>
+    </header>
+    <!-- finalheader -->
+    <main>
         
-        <script src="script.js"></script>
-    </body>
+        <section class="encabezado">
+            <div class="encabezado__foto" transition-style="in::diamond:center">
+                <img src="./img/foto.jpg" id="logo" />
+
+            </div>
+            <div class="encabezado__datos">
+                <h2>
+                    Luis Alberto Calderon Ortega
+                </h2>
+                <h3>Ingeniero Electronico</h3>
+                <ul class="datos">
+                    <li><img id="imagen" src="./img/ubicacion.png"> Bogota</li>
+                    <li><img id="imagen" src="./img/telefono.jpg"> 3108620969</li>
+                    <li><img id="imagen" src="./img/correo.png"> luchocalderon16@gmail.com</li>
+                    <li><img id="imagen" src="./img/linked.png"><a class="boton1" href="https://www.linkedin.com/in/luis-alberto-calderon-ortega-7643aa13b/" target="_blank">Luis Alberto Calderon Ortega</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="banner">
+            <h2>
+                Acerca de
+            </h2>
+            <p>
+                Profesional en ingeniería electrónica y Tecnólogo en Mantenimiento Electrónico e Instrumental Industrial, amplia experiencia laboral en el desarrollo de procesos de mantenimiento preventivo y correctivo a maquinaria industrial en áreas de producción, diagnóstico de fallas, reparación y/o cambio de elementos, seguimiento a mantenimientos y solicitudes de compras. Con conocimientos en manejo de herramientas ofimáticas y software especializado SAP. Acompañamiento a personal técnico. Caracterizado por la capacidad de análisis, facilidad para el trabajo en equipo, atención al detalle y orientación a los resultados.
+            </p>
+        </section>
+        <section class="formacion">
+            <div>
+                <h2>
+                    Experiencia Laboral
+                </h2>
+                <ul class="lista">
+                    <li>
+                        Técnico de mantenimiento <Img:s></Img:s>
+                    </li>
+                    <br>Funtrition
+                    <br>Mayo 2022 - actualidad
+                    <br>
+                    <br>
+                    <li>
+                        Técnico de Electromecanico
+                    </li>
+                    <br>Alpina
+                    <br>Febrero 2022 - Mayo 2022
+                </ul>
+            </div>
+            <div>
+                <h2>
+                    Educación
+                </h2>
+                <ul class="lista" >
+                    <li>
+                        Universidad Nacional Abierta y a Distancia </li>
+                    <br>Ingenieo Electronico
+                    <br>Julio 2020
+                    <br>
+                    <br>
+                    <li>
+                        Universidad Nacional de Colombia </li>
+                    <br>Diplomado Habilidades en Programacion con Enfasis en Aplicacion Web
+                    <br>Diciembre 2022
+                </ul>
+
+            </div>
+        </section>
+        
+        <section class="habilidades">
+            <div class="mostrar">    
+                <div>
+                    <button class="boton1" onclick="mostrarHabilidades()"><h2>Habilidades</h2></button>
+                
+                    <ul class=lista id="habilidades">
+                        <li>Electronica</li>
+                        <li>Electricidad</li>
+                        <li>html,css,javascript</li>
+                        <li>php</li>
+                        <li>python</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="./img/habilidad.jpg" id="logo" /> 
+                </div>                
+            </div>
+            <div class="mostrar">
+                <div>
+                    <button class="boton1" onclick="mostrarHobbies()"><h2>Hobbies</h2></button>
+                    <ul class=lista id="hobbies">
+                        <li>Viajar en moto</li>
+                        <li>Video Games</li>
+                        <li>Leer</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="./img/hobbie.jpg" id="logo" />
+                </div>
+            </div>
+            <div class="mostrar">
+                <div>                
+                    <button class="boton1" onclick="mostrarFortalezas()"><h2>Fortalezas</h2></button>
+                    <ul class=lista id="fortalezas">
+                        <li>Responsabilidad</li>
+                        <li>Trabajo en Equipo</li>
+                        <li>Capacidad de analisis</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="./img/fortaleza.jpg" id="logo" />
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
