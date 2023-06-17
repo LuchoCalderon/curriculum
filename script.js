@@ -1,5 +1,6 @@
 
 
+
 console.log("Cargando JavaScript");
 
 function mostrarHabilidades(){
@@ -32,8 +33,26 @@ function mostrarFortalezas(){
 
 }
 
-function mostrarDetalles(id){
-    var detalles = document.getElementById(id);
+function mostrarDetalles1(){
+    var detalles = document.getElementById("servicio1");
+    if(detalles.style.display === "none"){
+        detalles.style.display = "block";
+            } else {
+                detalles.style.display = "none";
+            }
+}
+
+function mostrarDetalles2(){
+    var detalles = document.getElementById("servicio2");
+    if(detalles.style.display === "none"){
+        detalles.style.display = "block";
+            } else {
+                detalles.style.display = "none";
+            }
+}
+
+function mostrarDetalles3(){
+    var detalles = document.getElementById("servicio3");
     if(detalles.style.display === "none"){
         detalles.style.display = "block";
             } else {

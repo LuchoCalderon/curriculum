@@ -18,35 +18,48 @@
             </nav>
         </header>
         <main>
-            <section class="servicios">
-                <div class=" mostrar">
-                    <div>
-                        <button class="boton1"  onclick="mostrarDetalles('servicio1')"><h2>Servicio 1</h2></button>
-                        <p id="servicio1">Mantenimiento Preventivo Sistemas Electricos y electronicos</p>
+            <contenedor class="servicios">
+                <section >
+                    <div class=" mostrar">
+                    
+                            <button class="boton1"  onclick="mostrarDetalles1()"><h2>Servicio 1</h2></button>
+                            <ul id="servicio1" class="lista"> 
+                                <li>Mantenimiento Preventivo y correctivo a sistemas electricos y electronicos de maquinaria industrial</li>
+                            </ul>
+                            <div>
+                                <img src="./img/descarga.jpg" id="logo">
+                            </div>
+                        
+                       
                     </div>
-                    <div>
-                        <img src="./img/descarga.jpg" id="logo">
+                </section>
+                <section>
+                    <div class="mostrar">
+                        
+                            <button class="boton1"  onclick="mostrarDetalles2()"><h2>Servicio 2 </h2></button>
+                            <ul id="servicio2" class="lista">
+                                <li>Montajes de sistemas de automatizacion industrial</li>
+                            </ul>
+                        
+                        <div>
+                            <img src="./img/descarga (1).jpg" id="logo">
+                        </div>
                     </div>
-                </div>
-                <div class="mostrar">
-                    <div>
-                        <button class="boton1"  onclick="mostrarDetalles('servicio2')"><h2>Servicio 2 </h2></button>
-                        <p id="servicio2">Montajes de sistemas de automatizacion</p>
+                </section>
+                <section>
+                    <div class="mostrar">
+                        
+                            <button class="boton1"  onclick="mostrarDetalles3()"><h2>Servicio 3</h2></button>
+                            <ul id="servicio3" class="lista">
+                                <li>Desarrollo de paginas Web con tecnologia html, css y javascript</li>
+                            </ul>
+                        
+                        <div>
+                            <img src="./img/images.jpg" id="logo">
+                        </div>
                     </div>
-                    <div>
-                        <img src="./img/descarga (1).jpg" id="logo">
-                    </div>
-                </div>
-                <div class="mostrar">
-                    <div>
-                        <button class="boton1"  onclick="mostrarDetalles('servicio3')"><h2>Servicio 3</h2></button>
-                        <p id="servicio3">Desarrollo de paginas Web</p>
-                    </div>
-                    <div>
-                        <img src="./img/images.jpg" id="logo">
-                    </div>
-                </div>
-            </section>
+                </section>
+            </contenedor>
             <script src="script.js"></script>
         </main>
     </body>

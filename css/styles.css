@@ -51,6 +51,7 @@ header {
 
 .boton1{
     margin: 10px;
+    border-radius:30px;
     background-color:#dcdcde;
     border:black;
     color:black;
@@ -62,11 +63,13 @@ header {
         -moz-transition: .5s, color .10s;
     }
     .boton1:hover{
+        background: #78788c;
+        color: #fff;
         transform: rotateZ(360deg);
             -webkit-transform: rotateZ(360deg);
             -moz-transform: rotateZ(360deg);
     }
-
+  
 main{
     margin: 100px;
     
@@ -102,6 +105,8 @@ main{
     
     width: 30px;
     height: 30px;
+    border-radius: 30px;
+    
 
    
 }
@@ -129,6 +134,7 @@ main{
     background-position:center;
     background-size:contain;
     background-repeat:no-repeat;
+    border-radius: 30px;
 }
 .formacion{
     display:grid;
@@ -160,18 +166,35 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1rem;
+    justify-content: center;
+    text-align: center;
+    
+    
+   
     /* border: solid 1px blue; */
 }
 
 .servicios{
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 1px solid blue; */
+    margin-top: 1rem;
 }
 
-#servicio1, #servicio2, #servicio3, #servicio4{
+#servicio1{
+    display: none;
+    
+
+}
+
+#servicio2{
     display: none;
 }
+
+#servicio3{
+    display: none;
+}
+
 
 form{
     box-shadow: 0px 4px 93px 8px rgba(87,84,87,1);
@@ -181,7 +204,8 @@ form{
     background-color:#dcdcde;
     width: 20rem;
     height: auto;
-    padding: 2rem;   
+    padding: 2rem; 
+    border-radius: 30px;  
    
 }
 .form{
@@ -206,6 +230,11 @@ input {
   input:focus {
     border-bottom: 2px solid #78788c;
   }
+  input:hover{
+    background: #78788c;
+    color: #fff;
+    border-radius: 30px;
+    }
   p:before {
     content: attr(type);
     display: block;
@@ -230,8 +259,11 @@ input {
   }
 
   textarea{
-    background-color:#edf4fc;
+    background-color:#b1b1b9;
   }
+
+
+
 /* body{
     display: flex;
     flex-direction:column;
@@ -296,14 +328,7 @@ section{
     border-radius: 20%;
     
 }
-.letra2{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    background-color: #6d766d;
-    color:aliceblue;
-    border-radius: 20%;
 
-}
 
 .letra3{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
