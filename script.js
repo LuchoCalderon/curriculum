@@ -1,6 +1,3 @@
-
-
-
 console.log("Cargando JavaScript");
 
 function mostrarHabilidades(){
@@ -85,10 +82,7 @@ const processForm = (event)=>{
 
     //Crear o Abrir Base Datos
     var dataBase = window.indexedDB.open("myDataBase",3);
-    
 
-
-    // Ejecución Correcta Crear o Abrir Base Datos
    
 
     // Ejecución Correcta Crear o Abrir Base Datos
@@ -107,31 +101,6 @@ const processForm = (event)=>{
         let myP = document.getElementById("Data");
 
         var dataInfo = instanceTransaction.getAll();
-
-
-        // dataInfo.onsuccess =(event) =>{
-
-        //     let data = dataInfo.result;
-
-        //     console.log(data);
-
-
-        //     var infoStructure = "";
-
-
-
-        //     data.map((element)=>{
-        //         console.log(element);
-        //         infoStructure += "Nombre: " + element.name + " ";
-        //         infoStructure += "Correo: " + element.email + " ";
-        //         infoStructure += "Mensaje: " + element.message + " ";
-        //         infoStructure += "<br>";
-        //     });
-
-        //     myP.innerHTML = infoStructure;
-
-
-        // }
         
 
     }
