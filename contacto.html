@@ -33,13 +33,21 @@
                 <div class="form">
                     <label class="letra1" for="message">Mensaje:</label>
                     <textarea id="message" placeholder="Escribeme un mensaje" required></textarea>
-                    <input  class="letra2" type="submit" value="Enviar">
+                    <!--<input  class="letra2" type="submit" value="Enviar">/> -->
     
                 </div>
-                
-
+                <div class="form">
+                    <button class="boton" class="letra1"  type="button" id="save" onclick="saveContact()">Enviar datos contacto
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
 
             </form>
+             <div class="form">
+                    <button class="boton" class="letra1"  type="button" id="save" onclick="getContact()">Consultar Contacto
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
 
             <!-- <div>
                 <h2>Información Almacenada</h2>
